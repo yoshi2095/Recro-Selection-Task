@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/common/Header';
 import Search from './components/common/Search'
 import MoviesList from './components/MoviesList';
 import Footer from "./components/common/Footer";
 
-
-
-function App() {
+const App: FC = () => {
   let [allMovies, setAllMovies] = useState([])
   let [selectedMovies, setSelectedMovies] = useState([]);
   let [selectedType, setSelectedType] = useState(1);
@@ -66,7 +64,6 @@ function App() {
       } else {
         setMoviesByType(1, res.results)
       }
-      // setSearchClicked(false)
     })
   }
 
@@ -96,9 +93,8 @@ function App() {
       {
         React.useMemo(()=><MoviesList showResult={showResult} movies={selectedMovies} selectedType={selectedType} setSelectedType={(type = 0)=>{
           setSelectedType(type)
-        }} query={query} searchClicked={searchClicked}/>, [selectedMovies])
+        }}/>, [selectedMovies])
       }
-      
       <Footer/>
     </div>
   );

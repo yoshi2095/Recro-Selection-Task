@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {FC} from 'react';
 import "./index.css";
 import logo from "../../../assets/images/logo.svg"
 
-export default function Header() {
+ const Header: FC = () => {
     return <header className='header'>
         <div className='header-content'>
         <div className='items-left'>
@@ -41,3 +41,5 @@ export default function Header() {
         
     </header>
 }
+
+export default Header;

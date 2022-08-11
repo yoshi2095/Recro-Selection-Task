@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {FC} from 'react';
 import "./index.css";
 import logo_2 from "../../../assets/images/logo_2.png";
 
-export default function Footer() {
+ const Footer : FC = () =>  {
     return <div className='footer'>
         <div className='footer-grid'>
             <div className='footer-item'>
@@ -86,3 +86,5 @@ export default function Footer() {
         </div>
     </div>
 }
+
+export default Footer;

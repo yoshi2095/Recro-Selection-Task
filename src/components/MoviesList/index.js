@@ -6,7 +6,7 @@ import { Rating } from 'react-simple-star-rating'
 import moment from 'moment';
 import { v4 as uuidv4 } from 'uuid';
 
-export default function MoviesList({movies=[], selectedType, setSelectedType, query, searchClicked, showResult}) {
+export default function MoviesList({movies=[], selectedType, setSelectedType, showResult}) {
     function calculateAverage(value) {
         return (value/10)*5
     }
