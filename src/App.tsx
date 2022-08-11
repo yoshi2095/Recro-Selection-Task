@@ -60,7 +60,6 @@ function App() {
     }).then(res => {
       return res.json()
     }).then(res => {
-      console.log('response:', res)
       setAllMovies(JSON.parse(JSON.stringify(res.results)));
       if(query) {
         setSelectedMovies(JSON.parse(JSON.stringify(res.results)))
@@ -79,9 +78,7 @@ function App() {
     setMoviesByType(selectedType, allMovies)
   }, [selectedType])
 
-  useEffect(()=>{
-    console.log('rerendering the component')
-  }, [selectedMovies])
+
 
 
   return (
