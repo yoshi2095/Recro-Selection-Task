@@ -1,0 +1,27 @@
+body {
+  font-family: 'Rubik';
+  font-weight: 500;
+}
+
+.banner {
+  background-image: url('./assets/images/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 465px;
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  font-size: 47px;
+}
+
+.banner-subtitle {
+  font-size: 20px;
+}

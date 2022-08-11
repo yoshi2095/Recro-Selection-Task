@@ -1,0 +1,99 @@
+.movies-list {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 36px;
+    flex-direction: column;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-header-text {
+    margin-right: 23px;
+    font-size: 28px;
+}
+
+.list-items {
+    margin-top: 40px;
+}
+
+.movie-image {
+    max-width: 12.5vw;
+    box-shadow: 0px 3px 6px #00000046;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.movie-date {
+    font: normal normal normal 16px/23px Rubik;
+    letter-spacing: 0px;
+    color: #AAAAAA;
+    opacity: 1;
+}
+
+.movie-name {
+    font: normal normal medium 16px/23px Rubik;
+    letter-spacing: 0px;
+    color: #3D3D52;
+    opacity: 1;
+    margin-top: 15px;
+}
+
+
+/* Carousel CSS */
+
+.kVtMtA::before {
+    content: '' !important;
+    height: 0px !important;
+    width: 0px !important;
+    display: inline-block !important;
+    position: absolute !important;
+    top: 55% !important;
+    box-shadow: unset !important ;
+    height: 0 !important;
+    border: 10px solid transparent !important;
+    border-top: 0 !important;
+    border-right: 10px solid #d1d5dc !important;
+}
+
+.kVtMtA {
+    left: -70px !important;
+    width: 52px !important;
+    height: 52px !important;
+    background: #F5F5F5 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    box-shadow: unset !important ;
+    top: calc(50% - 50.5px) !important;
+}
+
+.bhRnqO {
+    right: -70px !important;
+    width: 52px !important;
+    height: 52px !important;
+    background: #F5F5F5 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    box-shadow: unset !important ;
+    top: calc(50% - 50.5px) !important;
+}
+
+.bhRnqO::before {
+    content: '' !important;
+    height: 0px !important;
+    width: 0px !important;
+    display: inline-block !important;
+    position: absolute !important;
+    top: 43% !important;
+    box-shadow: unset !important ;
+    height: 0 !important;
+    border: 10px solid transparent !important;
+    border-top: 0 !important;
+    border-right: 10px solid #d1d5dc !important;
+}
+
+.bghjHX {
+    margin: unset !important;
+}

@@ -1,0 +1,19 @@
+.tabs-container {
+    display: flex;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+}
+
+.tab {
+    padding: 6px 24px;
+    border-radius: 19px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #3d3d52;
+}
+
+.tab.selected {
+    background-color: #ec2227;
+    color: #fff;
+
+}
