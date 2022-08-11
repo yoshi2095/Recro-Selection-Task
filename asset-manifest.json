@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Recro-Selection-Task/static/css/main.ee253e80.css",
+    "main.js": "/Recro-Selection-Task/static/js/main.acc90663.js",
+    "static/js/787.14e4bc02.chunk.js": "/Recro-Selection-Task/static/js/787.14e4bc02.chunk.js",
+    "static/media/banner.png": "/Recro-Selection-Task/static/media/banner.e0fa7c740b0bba57bb75.png",
+    "static/media/logo.svg": "/Recro-Selection-Task/static/media/logo.3f14a4b8f38c4aeb7209f82fa3f4e37c.svg",
+    "static/media/logo_2.png": "/Recro-Selection-Task/static/media/logo_2.d46abbdacd1ced644e35.png",
+    "index.html": "/Recro-Selection-Task/index.html",
+    "main.ee253e80.css.map": "/Recro-Selection-Task/static/css/main.ee253e80.css.map",
+    "main.acc90663.js.map": "/Recro-Selection-Task/static/js/main.acc90663.js.map",
+    "787.14e4bc02.chunk.js.map": "/Recro-Selection-Task/static/js/787.14e4bc02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee253e80.css",
+    "static/js/main.acc90663.js"
+  ]
+}
